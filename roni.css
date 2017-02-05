@@ -1,0 +1,21 @@
+
+
+
+.banner-home{
+    background-image: url("images/21.jpg");
+    height: 400px;
+    width: 80%;
+    color: #fff;
+    padding-top: 6em;
+}
+.showcards{
+    width: 80%;
+    margin-left: 10%;
+}
+.brand-logo
+{
+    margin-left: 10%;
+}
+.dropdown-button btn{
+    margin-right: 20%;
+}

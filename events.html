@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" ng-app="display">
+
+<head>
+    <title>Add Event</title>
+</head>
+
+<body ng-controller="displayController">
+    <div>
+        <label>Event Capacity: </label>
+        <input type="number" id="eventCapacity" ng-model="eventDetails.eventCapacity"/>
+    </div>
+    <div>
+        <label>Event Date: </label>
+        <input type="date" id="eventDate" ng-model="eventDetails.eventDate"/>
+    </div>
+    <div>
+        <label>Event Description:</label>
+        <input type="text" id="eventDesc" ng-model="eventDetails.eventDesc"/>
+    </div>
+    <div>
+        <label>Event ID: </label>
+        <input type="text" id="eventID" ng-model="eventDetails.eventID"/>
+    </div>
+    <div>
+        <label>Event Image URL: </label>
+        <input type="text" id="imageURL" ng-model="eventDetails.imageURL"/>
+    </div>
+    <div>
+        <label>Is event verified: </label>
+        <input type="text" id="eventVerified" ng-model="eventDetails.eventVerified"/>
+    </div>
+    <div>
+        <label>Is event Visible: </label>
+        <input type="text" id="eventVisible" ng-model="eventDetails.eventVisible"/>
+    </div>
+    <div>
+        <label>Event Location Latitute: </label>
+        <input type="number" id="locLat" ng-model="eventDetails.locLat"/>
+    </div>
+    <div>
+        <label>Event Location Longitude: </label>
+        <input type="number" id="LocLong" ng-model="eventDetails.locLong"/>
+    </div>
+    <div>
+        <label>Event Name:" </label>
+        <input type="text" id="eventName" ng-model="eventDetails.eventName"/>
+    </div>
+    <div>
+        <label>Event Type:</label>
+        <input type="text" id="eventType" ng-model="eventDetails.eventType"/>
+    </div>
+    <div>
+        <label>Event Visibility in Miles: </label>
+        <input type="number" id="visibility" ng-model="eventDetails.visibility"/>
+    </div>
+    <div>
+        <label>Event Time:</label>
+        <input type="time" id="eventTime" ng-model="eventDetails.eventTime"/>
+    </div>
+    <div>
+        <label>Event Visibility tenure in hours:</label>
+            <input type="number" id="tenure" ng-model="eventDetails.tenure"/>
+    </div>
+    <button type="button" ng-click="createEvent()">Create Event</button>
+    
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="actions.js"></script>
+</body>
+
+</html>

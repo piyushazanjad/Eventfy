@@ -1,0 +1,9 @@
+{
+ "userId" :"uname6",
+ "password":"pass",
+  "userName": "uname6",
+   "dob" :"02/08/1992",
+	"imageUrl" :"https://res.cloudinary.com/eventfy/image/upload/v1461550414/yfg5zs58jd709arktqgn.png",
+	"isFacebook": "false",
+	"isVerified" :"true"
+}

@@ -1,0 +1,18 @@
+{
+  "eventCapacity": "100",
+  "eventDate": "30 jun 2016",
+  "eventDescription": "A friday hangout event for friends",
+  "eventID": 1,
+  "eventId": 1,
+  "eventImageUrl": "default",
+  "eventIsVerified": "no",
+  "eventIsVisible": "yes",
+  "eventLocationLatitude": 33.875501,
+  "eventLocationLongitude": -117.883372,
+  "eventName": "event 4",
+  "eventTime": "8:30",
+  "eventType": "hangout",
+  "eventVisiblityMile": "50",
+  "eventVisiblityTenure": "24 hr",
+  "userDetail": []
+}
