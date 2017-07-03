@@ -8,7 +8,7 @@ Allows users to create events.
 Allows users to join events.
 Allow users to delete events created by them.
 
-5. Setup Instructions
+Setup Instructions
 • Download the zip file.
 • Download and install mongodb from https://www.mongodb.org/
 • Download and install node.js from https://nodejs.org/
